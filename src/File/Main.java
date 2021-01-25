@@ -19,7 +19,7 @@ public class Main {
 
         File f1 = new File(bestandLocatie + userName + ".txt"); //Creation of File Descriptor for input file
         //input het woord waar op gefilterd
-        System.out.println("vul de naam van het bestand dat je wil uitlezen in");
+        System.out.println("vul de naam van het woord waarnaar je opzoek bent");
         Scanner wordName = new Scanner(System.in);
         String filterWord = wordName.nextLine();
 
